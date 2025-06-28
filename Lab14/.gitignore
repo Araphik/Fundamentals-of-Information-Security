@@ -1,0 +1,75 @@
+### Временные файлы (работают рекурсивно)
+**/*~
+**/~*
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+### Автоматически игнорирует во всех подпапках:
+# Временные файлы Office (в любом месте репозитория)
+**/~$*
+**/._*
+
+# Бинарные файлы сборки
+**/*.exe
+**/*.dll
+**/*.so
+**/*.a
+**/*.lib
+**/*.out
+**/*.app
+**/*.ipa
+**/*.apk
+
+# Результаты компиляции
+**/*.o
+**/*.obj
+**/*.pch
+**/*.pdb
+**/*.ilk
+**/*.exp
+**/*.manifest
+
+# Папки сборки (рекурсивно)
+**/build/
+**/.vs/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+**/node_modules/
+**/.idea/
+
+# Файлы IDE/редакторов
+**/*.suo
+**/*.user
+**/*.userprefs
+**/*.sln.docstates
+**/*.swp
+**/*.swo
+**/*.vspscc
+**/*.vssscc
+
+# Логи и кэш
+**/*.log
+**/*.cache
+**/*.tmp
+**/*.bak
+**/*.pid
+**/*.seed
+
+# Системные файлы
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+
+# Дополнительные правила
+**/.vs/*
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
