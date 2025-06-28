@@ -1,8 +1,45 @@
+# Временные файлы редакторов
+*~
+~*
+
+# Папки сборки и IDE
 build/
-.vs/
 .vs/
 bin/
 obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Файлы настроек IDE
 *.suo
 *.user
+*.userprefs
+*.sln.docstates
+
+# Исполняемые файлы
 *.exe
+*.dll
+*.so
+*.a
+*.lib
+*.out
+
+# Файлы результатов компиляции
+*.o
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.manifest
+
+# Логи и кэши
+*.log
+*.cache
+*.tmp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
